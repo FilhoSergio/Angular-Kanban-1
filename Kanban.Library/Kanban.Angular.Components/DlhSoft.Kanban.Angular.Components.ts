@@ -102,7 +102,7 @@
                     restrict: 'EAC',
                     replace: true,
                     transclude: true,
-                    bindToController: {
+                    scope : {
                         items: '=',
                         groups: '=?',
                         states: '=?',
